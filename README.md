@@ -29,16 +29,16 @@
     </ol>    
     <h3>route.dart</h3>    
     ```dart
-    import 'package:flutter/material.dart';
-    import 'package:flutter_widge_detail/routing/routing_constants.dart';
-    import 'package:flutter_widge_detail/screens/bottom_navigation_example/bottom_navigation_bar.dart';
-    import 'package:flutter_widge_detail/screens/collapsing_toolbar_example/collapsing_toolbar.dart';
-    import 'package:flutter_widge_detail/screens/home/home_view.dart';
-    import 'package:flutter_widge_detail/screens/login/login_view.dart';
-    import 'package:flutter_widge_detail/screens/undefined_screen/undefined_screen.dart';
+        import 'package:flutter/material.dart';
+        import 'package:flutter_widge_detail/routing/routing_constants.dart';
+        import 'package:flutter_widge_detail/screens/bottom_navigation_example/bottom_navigation_bar.dart';
+        import 'package:flutter_widge_detail/screens/collapsing_toolbar_example/collapsing_toolbar.dart';
+        import 'package:flutter_widge_detail/screens/home/home_view.dart';
+        import 'package:flutter_widge_detail/screens/login/login_view.dart';
+        import 'package:flutter_widge_detail/screens/undefined_screen/undefined_screen.dart';
     ```
     
-    <code>
+    ```
     Route<dynamic> generateRoute(RouteSettings settings) {
       switch (settings.name) {
         case HOME_VIEW_ROUTE:
