@@ -27,7 +27,8 @@
             <li>Create 'route.dart' and 'routing_constants.dart' file inside 'routing' folder</li>
         </a>
     </ol>    
-    <h3>route.dart</h3>    
+    <h3>route.dart</h3>   
+     
     ```.dart
     import 'package:flutter/material.dart';
     import 'package:flutter_widge_detail/routing/routing_constants.dart';
